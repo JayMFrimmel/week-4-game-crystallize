@@ -7,11 +7,15 @@ body {
 }
 
 header {   
-	width: 50%;  
-	padding: 20px;
+	width: 50%; 
+	height: 110px; 
+	padding-top 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
 	border: 5px blue;
-	margin: 0;
-	font-size: 20px;
+	margin: 5px;
+	font-size-adjust: 25px;
 	text-align: center;
 	background-color: lightblue;  
 	} 
@@ -28,7 +32,7 @@ div#first {
 
 h2 {
 	width: 50%;
-	padding: 5px;
+	padding: 10px;
 	border: 5px black;
 	margin: 5px;
 	text-align: center;
@@ -38,17 +42,53 @@ h2 {
 div#luck {
 	font-size: 30px;
 	text-align: center;
+	background-color: lightblue;
 }
 
+div#rubyred {
+	width: 160px;
+	height: 160px;
+	padding: 10px;
+	border: 5px;
+	margin: 5px;
+	float: left;
+}
+
+div#shinywhite {
+	width: 160px;
+	height: 160px;
+	padding: 10px;
+	border: 5px;
+	margin: 5px;
+	float: left;
+}
+
+div#bluest {
+	width: 160px;
+	height: 160px;
+	padding: 10px;
+	border: 5px;
+	margin: 5px;
+	float: left;
+}
+
+div#evergreen {
+	width: 160px;
+	height: 160px;
+	padding: 10px;
+	border: 5px;
+	margin: 5px;
+	float: left;
+}
 footer {
-	width: 50%
+	width: 50%;
+	height: 30px;
+	padding-top: 5px;
+	padding-right: 10px
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border: 5px;
+	margin: 5px;
 	color: white;
 	background-color: green;
 }	  
-
-	<script>
-function myFunction() {
-    var x = Math.floor((Math.random() * 10) + 1);
-    document.getElementById("demo").innerHTML = x;
-}
-</script>
