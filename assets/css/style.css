@@ -7,21 +7,15 @@ body {
 }
 
 header {   
-	width: 50%; 
-	height: 110px; 
-	padding-top 20px;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	padding-left: 10px;
-	border: 5px blue;
-	margin: 5px;
+	width: 75%; 
+	height: 100px; 
 	font-size-adjust: 25px;
 	text-align: center;
 	background-color: lightblue;  
 	} 
 
 div#first {
-	width: 50%;
+	width: 75%;
 	padding: 10px;
 	border: 5px black;
 	margin: 5px;
@@ -43,6 +37,11 @@ div#luck {
 	font-size: 30px;
 	text-align: center;
 	background-color: lightblue;
+}
+
+div#gemstones {
+	width: 75%;
+	height: 210px;
 }
 
 div#rubyred {
@@ -80,15 +79,55 @@ div#evergreen {
 	margin: 5px;
 	float: left;
 }
+
+div#comprannum {
+	width: 180px;
+	height: 180px;
+	padding: 10px;
+	border: 10px;
+	border-color: black;
+	margin: 5px;
+	text-align: center;
+	font-size: 50px;
+	float: left;
+	
+}
+
+div#Yourtotal {
+	width: 180px;
+	height: 180px;
+	padding: 10px;
+	border: 10px;
+	border-color: black;
+	margin: 5px;
+	text-align: center;
+	font-size: 50px;
+	float: left;
+}
+
+div#winslosses {
+	width: 180px;
+	height: 180px;
+	padding: 10px;
+	border: 10px;
+	border-color: black;
+	margin: 5px;
+	text-align: center;
+	font-size: 50px;
+	float: left;
+}
+
 footer {
 	width: 50%;
-	height: 30px;
+	height: 60px;
 	padding-top: 5px;
 	padding-right: 10px
 	padding-bottom: 5px;
 	padding-left: 10px;
 	border: 5px;
 	margin: 5px;
+	font-size: 20px;
+	text-align: center;
 	color: white;
 	background-color: green;
 }	  
